@@ -26,7 +26,16 @@
              width: 70%;
              border-radius:10px;}
       p{text-indent: 2em;}.zoom:hover{transform: scale(1.5); cursor:pointer;}
+
       
+      img:hover{animation:glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors{
+        0% {box-shadow: 0 0 20px hotpink;}
+        25% {box-shadow: 0 0 20px skyblue;}
+        50% {box-shadow: 0 0 20px gold;}
+        75% {box-shadow: 0 0 20px darkviolet;}
+        100% {box-shadow: 0 0 20px red;}
+      }
     </style>
   </head>
   <body background="https://media.istockphoto.com/id/472347896/photo/striped-soccer-field.jpg?s=612x612&w=0&k=20&c=wgeavCCOimF1b5mrv9QNQuuJqs1ERX67pDjPT3yv8j8=">
